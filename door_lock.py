@@ -11,8 +11,8 @@ import csv
 import requests
 
 
-BOT_TOKEN = "7780797367:AAF4Rjo2vD894HxUZYIgiTxGARxQJtLTk7w"
-CHAT_ID = "1600983377"
+BOT_TOKEN = ""
+CHAT_ID = ""
 SERIAL_PORT = "COM3" 
 BAUD_RATE = 9600
 
