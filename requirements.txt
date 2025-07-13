@@ -1,0 +1,26 @@
+ ========== Smart Door Lock Requirements ==========
+Run this file with: pip install -r requirements.txt
+
+face_recognition==1.3.0
+opencv-python==4.12.0.88
+numpy==1.24.3
+pyserial==3.5
+pillow==11.3.0
+requests==2.31.0
+
+--------------------------------------------------
+tkinter is required but comes pre-installed with Python on Windows.
+If using Linux, install it with: sudo apt-get install python3-tk
+--------------------------------------------------
+
+----- Setup Instructions for New Users -----
+1. Make sure you have Python 3.10.x installed.
+2. (Optional) Create a virtual environment:
+   python -m venv faceenv
+   faceenv\Scripts\activate    (on Windows)
+3. Install all dependencies:
+   pip install -r requirements.txt
+4. Ensure dlib is installed:
+    conda install -c conda-forge dlib   (recommended)
+5. Run the code:
+   python door_lock.py
